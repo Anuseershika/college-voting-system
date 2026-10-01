@@ -4,17 +4,17 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=white)](https://render.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
 A complete, role-based electoral web application engineered using **PHP, MySQL, Apache, and Docker**. Designed for academic institutions to manage elections transparently, securely, and efficiently.
 
 ---
 
-## 🌟 Live Demo & Credentials
+## 🌟 Demo Credentials
 
-> 🔗 **Live URL:** `https://your-app-name.onrender.com` *(Replace with your Render deployment link)*
+To test the system immediately without registering, use the pre-seeded demo accounts below.
 
-To test the system immediately without registering, use the pre-configured credentials below:
+> ⚠️ **These credentials are for demo/testing purposes only.** Change all passwords before any real-world deployment.
 
 | Portal | Role | Username / Identifier | Password | Direct Path |
 |---|---|---|---|---|
@@ -22,6 +22,21 @@ To test the system immediately without registering, use the pre-configured crede
 | **Student** | Registered Voter | `S101` / `S102` / `S103` | `student123` | `/student/login.php` |
 | **Candidate** | Approved Candidate | `michael@college.edu` | `candidate123` | `/candidate/login.php` |
 | **Candidate** | Pending Candidate | `david@college.edu` | `candidate123` | `/candidate/login.php` |
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of the app here. Suggested captures:
+> - `Home Page` — election phase banner and portal links
+> - `Student Voting Panel` — candidate cards and cast-vote button
+> - `Admin Dashboard` — pending nominations, phase control, and stats
+> - `Results Page` — winner spotlight and vote-tally bar chart
+>
+> Place image files in `assets/images/screenshots/` and reference them like:
+> ```md
+> ![Admin Dashboard](assets/images/screenshots/admin-dashboard.png)
+> ```
 
 ---
 
@@ -74,7 +89,7 @@ This repository is pre-configured with a production-ready `Dockerfile` and autom
    - `DB_SSL=true`
 5. Render will automatically build the Docker image and deploy. The database schema and seed data are imported automatically on first visit!
 
-👉 For detailed step-by-step instructions with screenshots and screenshots guidance, see [DEPLOY_RENDER.md](DEPLOY_RENDER.md).
+👉 For detailed step-by-step deployment instructions, see [DEPLOY_RENDER.md](DEPLOY_RENDER.md).
 
 ---
 
